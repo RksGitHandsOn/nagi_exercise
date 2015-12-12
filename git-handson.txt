@@ -1,0 +1,17 @@
+$ git branch -a
+  develop
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/develop
+  remotes/origin/feature/#1/addREADME.mdNowDateTime
+  remotes/origin/master
+
+$ git log --graph --oneline --decorate
+*   c3f912f (HEAD -> master, tag: v1.0, origin/master, origin/HEAD) Merge branch 'develop'
+|\
+| *   4194f48 (develop) Merge branch 'feature/#1/addREADME.mdNowDateTime' into develop
+| |\
+|/ /
+| * 4cd6488 (origin/feature/#1/addREADME.mdNowDateTime) add NowDateTime README.md #1
+|/
+* 460390c Initial commit
